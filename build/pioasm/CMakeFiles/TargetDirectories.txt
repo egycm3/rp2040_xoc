@@ -1,0 +1,3 @@
+C:/Users/Christopher Martin/Documents/Pico SDK/rp2040_xoc/build/pioasm/CMakeFiles/pioasm.dir
+C:/Users/Christopher Martin/Documents/Pico SDK/rp2040_xoc/build/pioasm/CMakeFiles/edit_cache.dir
+C:/Users/Christopher Martin/Documents/Pico SDK/rp2040_xoc/build/pioasm/CMakeFiles/rebuild_cache.dir

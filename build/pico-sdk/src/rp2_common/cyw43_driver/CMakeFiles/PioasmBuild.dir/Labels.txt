@@ -1,0 +1,13 @@
+# Target labels
+ PioasmBuild
+# Source files and their labels
+C:/Users/Christopher Martin/Documents/Pico SDK/rp2040_xoc/build/pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/PioasmBuild
+C:/Users/Christopher Martin/Documents/Pico SDK/rp2040_xoc/build/pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/PioasmBuild.rule
+C:/Users/Christopher Martin/Documents/Pico SDK/rp2040_xoc/build/pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/PioasmBuild-complete.rule
+C:/Users/Christopher Martin/Documents/Pico SDK/rp2040_xoc/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-build.rule
+C:/Users/Christopher Martin/Documents/Pico SDK/rp2040_xoc/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure.rule
+C:/Users/Christopher Martin/Documents/Pico SDK/rp2040_xoc/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-download.rule
+C:/Users/Christopher Martin/Documents/Pico SDK/rp2040_xoc/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-install.rule
+C:/Users/Christopher Martin/Documents/Pico SDK/rp2040_xoc/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir.rule
+C:/Users/Christopher Martin/Documents/Pico SDK/rp2040_xoc/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch.rule
+C:/Users/Christopher Martin/Documents/Pico SDK/rp2040_xoc/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-update.rule

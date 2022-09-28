@@ -28,7 +28,6 @@ minicom -b 115200 -o -D /dev/serial0
  #include <stdlib.h>
  #include <stdio.h>
  #include "pico/stdlib.h"
- #include "hardware/gpio.h"
  #include "dhry.h"
  #include "hardware/clocks.h"
  #include "hardware/pll.h"
@@ -109,7 +108,7 @@ double startTime;
  /* end of variables for time measurement */
 
 
- void clk_config_rosc() {
+void clk_config_rosc() {
     // sys_clk set to run off the ROSC
     clock_configure(clk_sys,
                     CLOCKS_CLK_SYS_CTRL_SRC_VALUE_CLKSRC_CLK_SYS_AUX,
@@ -122,9 +121,9 @@ double startTime;
 	
     // ROSC settings
     hw_write_masked(rosc_div_addr, 0xaa1, 0x00000fff);  // Divider set to 1
-    hw_write_masked(rosc_ctl_addr, 0xfa6, 0x00000fff);  // Drive stages reduced to 2
-    hw_set_bits(rosc_freqa_addr, 0x96967777);  // Drive strength to maximum (freq a register)
-    hw_set_bits(rosc_freqb_addr, 0x96967777);  // Drive strength to maximum (freq b register)
+    hw_write_masked(rosc_ctl_addr, 0xfa7, 0x00000fff);  // Drive stages reduced to 2
+    hw_set_bits(rosc_freqa_addr, 0x96960777);  // Drive strength to maximum (freq a register)
+    hw_set_bits(rosc_freqb_addr, 0x96960777);  // Drive strength to maximum (freq b register)
 
     // Set clk_peri to use the XOSC
     clock_configure(clk_peri,
